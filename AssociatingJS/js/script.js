@@ -1,5 +1,5 @@
-//Expressions
+//Expressions  Age Example
 
-var a = 2;
-var sum = a + 3;
-console.log(sum);
+var yearBorn = 1987;
+var age = 2014 - yearBorn;
+console.log(age);
