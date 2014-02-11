@@ -1,5 +1,4 @@
-//Expressions  Age Example
+//Expressions - Modulo Operator
 
-var yearBorn = 1987;
-var age = 2014 - yearBorn;
-console.log(age);
+var remainder = 33 % 2;
+console.log(remainder);
