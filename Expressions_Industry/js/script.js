@@ -16,3 +16,5 @@ rColWid = +rColWid;
 lColWid+=rColWid;
 
 cColWid = websiteWidth - lColWid;
+
+alert("The width of the center column of your 3-column website is" + cColWid +" pixels.");
