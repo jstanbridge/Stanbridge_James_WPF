@@ -41,6 +41,9 @@ var fruFour = prompt("I’m starting to question if you we’re the right animal
 var fruFourNum = prompt("How many pieces did they manage to acquire? (Please enter a numerical value, such as 10 or 15)");
 
 alert("Now, the moment of truth.");
+alert("Dr. Elefaunt has created a giant fruit cannon. The cannon can fire off 10 pieces of fruit per shot and each shot will destroy 3 platoons of men.");
+
+
 
 
 
