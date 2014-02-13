@@ -15,3 +15,4 @@ rColWid = +rColWid;
 
 lColWid+=rColWid;
 
+cColWid = websiteWidth - lColWid;
