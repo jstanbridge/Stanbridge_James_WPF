@@ -8,8 +8,11 @@ alert("Hello, we are going to calculate the width of the center column of your w
 //Here we are setting up the initial alert to inform the user of what we are calculating.
 
 var websiteWidth = prompt("What is the total width (in pixels) of your website?");
+//Here we declare the variable for the total width of the website and add the appropriate prompt for the user.
 var lColWid = prompt("What is the width (in pixels) of your left-hand column?");
+//Here we declare the variable for the total width of the website and add the appropriate prompt for the user.
 var rColWid = prompt("What is the width (in pixels) of your right-hand column?");
+//Here we declare the variable for the total width of the website and add the appropriate prompt for the user.
 
 lColWid = +lColWid;
 rColWid = +rColWid;
