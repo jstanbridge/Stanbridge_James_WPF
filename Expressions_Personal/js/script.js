@@ -22,8 +22,11 @@ var gasPrice = prompt("How much do you normally pay for one gallon of gas?");
 var totalSpent = ((milesPerWeek / mpg) * gasPrice) * 52;
 //Now we put all the variables together to calculate the amount the user will spend on gas per year and assign it to the variable totalSpent.
 var normTotal = totalSpent.toFixed(2);
+//I wanted to try getting the total to round to two decimal places. I'm not sure that this is the right or best solution, but it seems to
+//work for this particular example. If it is wrong it can be removed and normTotal in the alert/console.log below can be replaced with totalSpent.
 
 alert("In one year, you will spend approximately $" + normTotal + " fueling your " + vehDesc + ".");
-
+//The final alert that provides the user with all the relevant information.
 
 console.log("In one year, the user will spend approximately $" + normTotal + " fueling your " + vehDesc + ".");
+//Printing the result to the console for rubric purposes.
