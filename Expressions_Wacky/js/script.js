@@ -16,3 +16,5 @@ alert("You will deliver instructions to four platoons. Three must be selected fr
 var aniOne = prompt("Which platoon from the six (Monkeys, Horses, Bears, Rhinos, Vultures, Bats) will you choose first?");
 //Here we are declaring a variable for animal #1 and defining it via user input. This is really only for flavor and will not factor into our equation.
 var aniTwo = prompt("They do have some strategic advantages. Now, what is your second choice?");
+//Here we are declaring a variable for animal #2 and defining it via user input. This is really only for flavor and will not factor into our equation.
+var aniThree = prompt("I see. Perhaps I would have chosen a different group, but I will defer to your judgement. Now, your final choice from the six, what is it?");
