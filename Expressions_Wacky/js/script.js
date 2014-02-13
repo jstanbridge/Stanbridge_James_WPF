@@ -23,6 +23,8 @@ var aniFour = prompt("Excellent choice! But you still have one final choice to m
 //Here we are declaring a variable for animal #4 and defining it via user input. This is really only for flavor and will not factor into our equation.
 
 alert("A most odd choice indeed. We shall see if you have chosen rightly soon enough.");
+//Another alert to further push the story along.
+alert("Now for the instructions. Each group is tasked to seek out and collect as much fruit as possible within the next 24 hours. Each platoon should focus on a single type of fruit. Come back to me in 24 hours to make your report. Good luck, Captain.");
 
 
 
