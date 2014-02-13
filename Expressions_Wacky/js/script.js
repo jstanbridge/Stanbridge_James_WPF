@@ -35,6 +35,11 @@ var fruOne = prompt("Now for your report, start with the" + aniOne + " Platoon. 
 var fruOneNum = prompt("How many pieces did they manage to acquire?");
 var fruTwo = prompt("Hmm, " + fruOne + ". And the " + aniTwo + " Platoon? What type of fruit did they collect?");
 var fruTwoNum = prompt("How many pieces did they manage to acquire?");
+var fruThree = prompt("Alright, moving on. What type of fruit did the " + aniThree + " Platoon collect?");
+
+
+
+
 
 
 
