@@ -20,7 +20,7 @@ var gasPrice = prompt("How much do you normally pay for one gallon of gas?");
 //Declare the variable gasPrice, define it, and set up the prompt for the user.
 
 var totalSpent = ((milesPerWeek / mpg) * gasPrice) * 52;
-
+//Now we put all the variables together to calculate the amount the user will spend on gas per year and assign it to the variable totalSpent.
 var normTotal = totalSpent.toFixed(2);
 
 alert("In one year, you will spend approximately $" + normTotal + " fueling your " + vehDesc + ".");
