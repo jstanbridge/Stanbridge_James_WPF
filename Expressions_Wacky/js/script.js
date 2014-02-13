@@ -38,7 +38,9 @@ var fruTwoNum = prompt("How many pieces did they manage to acquire? (Please ente
 var fruThree = prompt("Alright, moving on. What type of fruit did the " + aniThree + " Platoon collect?");
 var fruThreeNum = prompt("How many pieces did they manage to acquire? (Please enter a numerical value, such as 10 or 15)");
 var fruFour = prompt("I’m starting to question if you we’re the right animal for this task. Let’s hope your personal favorites did better. So, what fruit did the " + aniFour + " Platoon collect?");
+var fruFourNum = prompt("How many pieces did they manage to acquire? (Please enter a numerical value, such as 10 or 15)");
 
+alert("Now, the moment of truth.");
 
 
 
