@@ -15,7 +15,7 @@ var vehDesc = prompt("Please enter the make and model of your vehicle.");
 var milesPerWeek = prompt("About how many miles do you travel in one week?");
 //Declare the variable milesPerWeek, define it, and set up the prompt for the user.
 var mpg = prompt("On average, how many miles does your vehicle get per gallon of gas?");
-
+//Declare the variable mpg (miles per gallon), define it, and set up the prompt for the user.
 var gasPrice = prompt("How much do you normally pay for one gallon of gas?");
 
 
