@@ -11,3 +11,4 @@ var lColWid = prompt("What is the width (in pixels) of your left-hand column?");
 var rColWid = prompt("What is the width (in pixels) of your right-hand column?");
 
 lColWid = +lColWid;
+rColWid = +rColWid;
