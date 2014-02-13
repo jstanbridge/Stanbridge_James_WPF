@@ -32,7 +32,7 @@ alert("Ah, I see you are back. I hope the operation has gone well.");
 //Another alert to further push the story along.
 
 var fruOne = prompt("Now for your report, start with the" + aniOne + " Platoon. What type of fruit did they collect?");
-
+var fruOneNum = prompt("How many pieces did they manage to acquire?");
 
 
 
