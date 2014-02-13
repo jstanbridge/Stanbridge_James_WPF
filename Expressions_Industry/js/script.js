@@ -15,6 +15,7 @@ var rColWid = prompt("What is the width (in pixels) of your right-hand column?")
 //Here we declare the variable for the width of the right hand column of the website and add the appropriate prompt for the user.
 
 lColWid = +lColWid;
+//Now, we define lColWid as a number using the + symbol so it can be added later on.
 rColWid = +rColWid;
 
 lColWid+=rColWid;
