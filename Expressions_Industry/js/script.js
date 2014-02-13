@@ -17,6 +17,7 @@ var rColWid = prompt("What is the width (in pixels) of your right-hand column?")
 lColWid = +lColWid;
 //Now, we define lColWid as a number using the + symbol so it can be added later on.
 rColWid = +rColWid;
+//Now, we define rColWid as a number using the + symbol so it can be added later on.
 
 lColWid+=rColWid;
 
