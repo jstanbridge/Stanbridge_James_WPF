@@ -25,6 +25,18 @@ var aniFour = prompt("Excellent choice! But you still have one final choice to m
 alert("A most odd choice indeed. We shall see if you have chosen rightly soon enough.");
 //Another alert to further push the story along.
 alert("Now for the instructions. Each group is tasked to seek out and collect as much fruit as possible within the next 24 hours. Each platoon should focus on a single type of fruit. Come back to me in 24 hours to make your report. Good luck, Captain.");
+//Another alert to further push the story along.
+alert("*Time Passes*");
+//Another alert to further push the story along.
+alert("Ah, I see you are back. I hope the operation has gone well.");
+//Another alert to further push the story along.
+
+var fruOne = prompt("Now for your report, start with the" + aniOne + " Platoon. What type of fruit did they collect?");
+
+
+
+
+
 
 
 
