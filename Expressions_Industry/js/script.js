@@ -20,6 +20,7 @@ rColWid = +rColWid;
 //Now, we define rColWid as a number using the + symbol so it can be added later on.
 
 lColWid+=rColWid;
+//This line redifnes lColWid as the value of "lColdWid + rColWid" by using the += assignment operator.
 
 cColWid = websiteWidth - lColWid;
 
