@@ -35,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="953" selection-end="953" vertical-scroll-proportion="0.5902778" vertical-offset="0" max-vertical-offset="432">
+            <state line="18" column="77" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="432">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -227,7 +227,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="953" selection-end="953" vertical-scroll-proportion="0.5902778" vertical-offset="0" max-vertical-offset="432">
+        <state line="18" column="77" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="432">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
