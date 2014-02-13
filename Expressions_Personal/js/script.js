@@ -17,3 +17,6 @@ var milesPerWeek = prompt("About how many miles do you travel in one week?");
 var mpg = prompt("On average, how many miles does your vehicle get per gallon of gas?");
 //Declare the variable mpg (miles per gallon), define it, and set up the prompt for the user.
 var gasPrice = prompt("How much do you normally pay for one gallon of gas?");
+//Declare the variable gasPrice, define it, and set up the prompt for the user.
+
+var totalSpent = ((milesPerWeek / mpg) * gasPrice) * 52;
