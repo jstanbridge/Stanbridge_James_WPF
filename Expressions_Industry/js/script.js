@@ -23,6 +23,7 @@ lColWid+=rColWid;
 //This line redifnes lColWid as the value of "lColdWid + rColWid" by using the += assignment operator.
 
 cColWid = websiteWidth - lColWid;
+//This is the equation that gives you the width of the center column and assigns it to the variable cColWid.
 
 alert("The center column of your 3-column website is " + cColWid +" pixels wide.");
 
