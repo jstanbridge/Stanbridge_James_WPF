@@ -9,7 +9,7 @@
 alert("Hello! Let's estimate how much you're going to spend on gas for your vehicle this year. Click Ok to get started.");
 //This is a simple alert letting the user know what we are going to calculate.
 var vehDesc = prompt("Please enter the make and model of your vehicle.");
-
+//Here we are asking for the vehicle description and storing it as the vehDesc variable to use in our final statement.
 
 
 var milesPerWeek = prompt("About how many miles do you travel in one week?");
