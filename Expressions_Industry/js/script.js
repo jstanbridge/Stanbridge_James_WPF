@@ -29,3 +29,4 @@ alert("The center column of your 3-column website is " + cColWid + " pixels wide
 //This alert is the final result of the calculation that the user will see and is formed using a concatenating string.
 
 console.log("The center column is " + cColWid + " pixels wide.");
+//Adding the console command to display relevant information.
