@@ -25,6 +25,7 @@ lColWid+=rColWid;
 cColWid = websiteWidth - lColWid;
 //This is the equation that gives you the width of the center column and assigns it to the variable cColWid.
 
-alert("The center column of your 3-column website is " + cColWid +" pixels wide.");
+alert("The center column of your 3-column website is " + cColWid + " pixels wide.");
+//This alert is the final result of the calculation that the user will see and is formed using a concatenating string.
 
 console.log("The center column is " + cColWid + " pixels wide.");
