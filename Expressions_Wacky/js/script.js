@@ -34,6 +34,8 @@ alert("Ah, I see you are back. I hope the operation has gone well.");
 var fruOne = prompt("Now for your report, start with the" + aniOne + " Platoon. What type of fruit did they collect?");
 var fruOneNum = prompt("How many pieces did they manage to acquire?");
 var fruTwo = prompt("Hmm, " + fruOne + ". And the " + aniTwo + " Platoon? What type of fruit did they collect?");
+var fruTwoNum = prompt("How many pieces did they manage to acquire?");
+
 
 
 
