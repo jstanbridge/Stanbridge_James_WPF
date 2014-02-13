@@ -18,3 +18,5 @@ lColWid+=rColWid;
 cColWid = websiteWidth - lColWid;
 
 alert("The center column of your 3-column website is " + cColWid +" pixels wide.");
+
+console.log("The center column is " + cColWid + " pixels wide.");
