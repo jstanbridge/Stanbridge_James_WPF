@@ -18,8 +18,12 @@ var aniOne = prompt("Which platoon from the six (Monkeys, Horses, Bears, Rhinos,
 var aniTwo = prompt("They do have some strategic advantages. Now, what is your second choice?");
 //Here we are declaring a variable for animal #2 and defining it via user input. This is really only for flavor and will not factor into our equation.
 var aniThree = prompt("I see. Perhaps I would have chosen a different group, but I will defer to your judgement. Now, your final choice from the six, what is it?");
-//Here we are declaring a variable for animal #2 and defining it via user input. This is really only for flavor and will not factor into our equation.
+//Here we are declaring a variable for animal #3 and defining it via user input. This is really only for flavor and will not factor into our equation.
 var aniFour = prompt("Excellent choice! But you still have one final choice to make. Any animal platoon, your choice. What do you pick?");
+//Here we are declaring a variable for animal #4 and defining it via user input. This is really only for flavor and will not factor into our equation.
+
+alert("A most odd choice indeed. We shall see if you have chosen rightly soon enough.");
+
 
 
 
