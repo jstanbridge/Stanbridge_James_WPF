@@ -31,20 +31,36 @@ alert("*Time Passes*");
 alert("Ah, I see you are back. I hope the operation has gone well.");
 //Another alert to further push the story along.
 
-var fruOne = prompt("Now for your report, start with the" + aniOne + " Platoon. What type of fruit did they collect?");
+var fruOne = prompt("Now for your report, start with the " + aniOne + " Platoon. What type of fruit did they collect?");
 var fruOneNum = prompt("How many pieces did they manage to acquire? (Please enter a numerical value, such as 10 or 15)");
 var fruTwo = prompt("Hmm, " + fruOne + ". And the " + aniTwo + " Platoon? What type of fruit did they collect?");
 var fruTwoNum = prompt("How many pieces did they manage to acquire? (Please enter a numerical value, such as 10 or 15)");
 var fruThree = prompt("Alright, moving on. What type of fruit did the " + aniThree + " Platoon collect?");
 var fruThreeNum = prompt("How many pieces did they manage to acquire? (Please enter a numerical value, such as 10 or 15)");
-var fruFour = prompt("I’m starting to question if you we’re the right animal for this task. Let’s hope your personal favorites did better. So, what fruit did the " + aniFour + " Platoon collect?");
+var fruFour = prompt("I am starting to question if you were the right animal for this task. Let us hope your personal favorites did better. So, what fruit did the " + aniFour + " Platoon collect?");
 var fruFourNum = prompt("How many pieces did they manage to acquire? (Please enter a numerical value, such as 10 or 15)");
 
 alert("Now, the moment of truth.");
 alert("Dr. Elefaunt has created a giant fruit cannon. The cannon can fire off 10 pieces of fruit per shot and each shot will destroy 3 platoons of men.");
 
+fruOneNum = +fruOneNum;
+fruTwoNum = +fruTwoNum;
+fruThreeNum = +fruThreeNum;
+fruFourNum = +fruFourNum;
+
+var fruPerShot = 10;
+var allFru=[fruOneNum,fruTwoNum,fruThreeNum,fruFourNum];
+console.log(allFru);
+var fruTotal = +allFru[0] + +allFru[1] + +allFru[2] + +allFru[3];
+var platDestroyed = (fruTotal%fruPerShot) * 3;
+console.log(fruTotal);
+var fruRem = fruTotal%fruPerShot;
+fruTotal-=fruRem;
+var canShots = fruTotal / fruPerShot;
 
 
+
+alert("With the pieces of fruit your platoons acquired we can fire the cannon " + canShots + " times, wiping out " + platDestroyed + " platoons of men with " + fruRem + " pieces of fruit left over. I do not know whether to be proud or disappointed, but we will have to make do with what you have managed to scrounge up. Now, get your platoons back out there and find more fruit! Dismissed!");
 
 
 
