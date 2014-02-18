@@ -35,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="42" selection-end="42" vertical-scroll-proportion="0.13100436" vertical-offset="0" max-vertical-offset="229">
+            <state line="7" column="24" selection-start="191" selection-end="191" vertical-scroll-proportion="0.4585153" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -58,8 +58,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
-    <option name="y" value="411" />
+    <option name="x" value="230" />
+    <option name="y" value="462" />
     <option name="width" value="1030" />
     <option name="height" value="326" />
   </component>
@@ -188,7 +188,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="411" width="1030" height="326" extended-state="0" />
+    <frame x="230" y="462" width="1030" height="326" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -252,7 +252,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="42" selection-end="42" vertical-scroll-proportion="0.13100436" vertical-offset="0" max-vertical-offset="229">
+        <state line="7" column="24" selection-start="191" selection-end="191" vertical-scroll-proportion="0.4585153" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
