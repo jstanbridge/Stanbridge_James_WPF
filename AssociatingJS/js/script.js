@@ -5,7 +5,10 @@ var minHeight = 48;
 
 //If the child is over the height of 48", print to the console "You can ride!"
 
-if(kidHeight + 2 > minHeight){
+if(kidHeight > minHeight){
     //Code performed if condition is true.
     console.log("You can ride!");
+}else{
+    //Code performed if condition is false.
+    console.log("Sorry kid, you've got some growing to do!");
 }
