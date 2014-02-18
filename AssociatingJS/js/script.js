@@ -1,12 +1,9 @@
-//Prompt and Alert
+//Conditional Logic
 
-//var userInput = prompt("Enter your year of birth:");
-//console.log(userInput);
+var oldEnough = false;
 
-var width = prompt("We are calculating the area of a rectangle. Please enter the width.");
-var height = prompt("Please enter the height.")
+//If the child is old enough, print to the console "You can ride!"
 
-var area = width * height;
-console.log(area);
-
-alert("The area of your rectangle is " + area);
+if(oldEnough){
+    console.log("You can ride!");
+}
