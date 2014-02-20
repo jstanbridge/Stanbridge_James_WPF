@@ -13,10 +13,14 @@ var dayOfWeek = prompt("What day of the week is it?");
 //Here we set the prompt to determine the day of the week.
 
 if (run === "No"){
+    //This condition is fulfilled is the user states that they have not run this week.
     exercise = "cardio";
-}else if (dayOfWeek === "Monday" || dayOfWeek === "Tuesday"  || dayOfWeek === "Wednesday"){
+    //If the above condition is true, then exercise is set to cardio.
+}else if (dayOfWeek === "Monday" || dayOfWeek === "Wednesday"  || dayOfWeek === "Friday"){
     exercise = "legs";
+    //If the above condition is false and the day of the week is Monday, Wednesday, or Friday, then exercise is set to legs.
 }else exercise = "arms";
+    //If none of the conditions above are true, then exercise is set to arms.
 
 alert("You should focus on " + exercise + " for your workout today.");
 console.log("You should focus on " + exercise + " for your workout today.");
