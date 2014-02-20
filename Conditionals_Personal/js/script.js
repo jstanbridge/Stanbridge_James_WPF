@@ -6,12 +6,13 @@
 
 alert("Hi, we're going to help you determine what body area you should workout this week");
 
-var dayOfWeek = alert("What day of the week is it?");
-var run = alert("Have you run this week?");
+var run = prompt("Have you run this week?");
+var dayOfWeek = prompt("What day of the week is it?");
 
-
-if (dayOfWeek = "Monday" || "Tuesday"  || "Wednesday"){
-    exercise = "legs";
-}else if (run = "No"){
+if (run === "No"){
     exercise = "cardio";
+}else if (dayOfWeek === "Monday" || dayOfWeek === "Tuesday"  || dayOfWeek === "Wednesday"){
+    exercise = "legs";
 }else exercise = "arms";
+
+alert("You should focus on " + exercise + " for your workout today.");
