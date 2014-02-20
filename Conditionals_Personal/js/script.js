@@ -2,3 +2,12 @@
 //20 Feb 2014
 //Conditionals Personal
 
+//This project will help determine what body area to workout when given the day of the week.
+
+alert("Hi, we're going to help you determine what body area you should workout this week");
+
+if (dayOfWeek = "Monday" || "Tuesday"  || "Wednesday"){
+    exercise = "legs";
+}else if (run = false){
+    exercise = "cardio";
+}else exercise = "arms";
