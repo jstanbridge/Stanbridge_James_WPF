@@ -16,3 +16,4 @@ if (run === "No"){
 }else exercise = "arms";
 
 alert("You should focus on " + exercise + " for your workout today.");
+console.log("You should focus on " + exercise + " for your workout today.");
