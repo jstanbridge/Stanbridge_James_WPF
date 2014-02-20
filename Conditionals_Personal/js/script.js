@@ -7,10 +7,20 @@
 alert("Hi, we're going to help you determine what body area you should workout this week");
 //Here we set the initial alert to let the user know what we are doing.
 
+
+
 var run = prompt("Have you run this week?");
 //Here we set the prompt to find out if the user has run this week.
+if (run === ""){
+    alert("You forgot to state whether or not you've run this week!");
+    run = prompt("Have you run this week?");
+}
+
 var dayOfWeek = prompt("What day of the week is it?");
-//Here we set the prompt to determine the day of the week.
+if (dayOfWeek == ""){
+    alert("You forgot to state what day it is!");
+    dayOfWeek = prompt("What day of the week is it?");
+}
 
 if (run === "No"){
     //This condition is fulfilled is the user states that they have not run this week.
