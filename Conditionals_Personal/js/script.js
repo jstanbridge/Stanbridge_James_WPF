@@ -24,3 +24,4 @@ if (run === "No"){
 
 alert("You should focus on " + exercise + " for your workout today.");
 console.log("You should focus on " + exercise + " for your workout today.");
+//These two lines print the result to the user and to the console stating what workout should be done today.
