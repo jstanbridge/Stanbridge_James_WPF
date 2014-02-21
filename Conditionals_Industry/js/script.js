@@ -24,17 +24,20 @@ if (trans === ""){
 }
 
 if (fileSize === "No" && trans === "No"){
+    //The above condition is met when the user is not worried about file size or transparency.
     alert("You should use a JPEG file, since transparency is not an issue and the file size for a JPEG will be smaller than a PNG.");
     console.log("You should use a JPEG file, since transparency is not an issue and the file size for a JPEG will be smaller than a PNG.");
+    //When the above condition is met, the above alert/console command is printed, informing the user of the best file type to use.
 }else if (fileSize === "No" && trans === "Yes"){
+    //The above condition is met when the user is not worried about file size but is worried about transparency.
     alert("You should use a PNG file since it will allow for a transparent background.");
     console.log("You should use a PNG file since it will allow for a transparent background.");
+    //When the above condition is met, the above alert/console command is printed, informing the user of the best file type to use.
 }else if (fileSize === "Yes" && trans === "No"){
+    //The above condition is met when the user is worried about file size but is not worried about transparency.
     alert("You should use a JPEG file since the file size will be much smaller than if you were to use a PNG.");
     console.log("You should use a JPEG file since the file size will be much smaller than if you were to use a PNG.");
-}else if (fileSize === "No" && trans === "No"){
-    alert("You should use a JPEG file since the file size will be smaller and you aren't concerned about transparency.");
-    console.log("You should use a JPEG file since the file size will be smaller and you aren't concerned about transparency.");
+    //When the above condition is met, the above alert/console command is printed, informing the user of the best file type to use.
 }
 
 
