@@ -19,5 +19,10 @@ if (dragonsSlain === ""){
 }
 
 if (maidensSaved >= 30 && dragonsSlain >= 15){
-}
+    alert("Congratulations, you are a hero and worthy of your Hero's License!");
+}else if (maidensSaved < 30 && dragonsSlain >= 15){
+    alert("I'm sorry, but you haven't saved enough maidens to qualify yet. Please come back later.");
+}else if (maidensSaved >= 30 && dragonsSlain < 15){
+    alert("I'm sorry, but you haven't slain enough dragons to qualify yet. Please come back later.");
+}else alert("I'm sorry, but you haven't saved enough maidens or slain enough dragons to qualify yet. Please come back later.");
 
