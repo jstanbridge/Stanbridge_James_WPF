@@ -24,10 +24,17 @@ if (dragonsSlain === ""){
 }
 
 if (maidensSaved >= 30 && dragonsSlain >= 15){
+    //This condition weighs the amount of maidensSaved and dragonsSlain to see if they meet qualifications for a Hero's License.
     alert("Congratulations, you are a hero and worthy of your Hero's License!");
+    //This alert is printed when the user meets the above condition.
 }else if (maidensSaved < 30 && dragonsSlain >= 15){
+    //This condition weighs the amount of maidensSaved and dragonsSlain to see if they meet qualifications for a Hero's License.
     alert("I'm sorry, but you haven't saved enough maidens to qualify yet. Please come back later.");
+    //This alert is printed when the user meets the above condition.
 }else if (maidensSaved >= 30 && dragonsSlain < 15){
+    //This condition weighs the amount of maidensSaved and dragonsSlain to see if they meet qualifications for a Hero's License.
     alert("I'm sorry, but you haven't slain enough dragons to qualify yet. Please come back later.");
+    //This alert is printed when the user meets the above condition.
 }else alert("I'm sorry, but you haven't saved enough maidens or slain enough dragons to qualify yet. Please come back later.");
+//This is the final condition if no of the above conditions are met.
 
