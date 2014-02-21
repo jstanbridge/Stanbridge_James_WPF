@@ -16,9 +16,11 @@ if (fileSize === ""){
 }
 
 var trans = prompt("Do you need your image to have a transparent background?");
+//This variable helps us track if the user needs a transparent background or not.
 if (trans === ""){
     alert("You forgot to indicate whether you need a transparent background or not?");
     trans = prompt("Do you need your image to have a transparent background?");
+    //The above is the validation check to make sure that the user put an answer in the transparent background prompt.
 }
 
 if (fileSize === "No" && trans === "No"){
