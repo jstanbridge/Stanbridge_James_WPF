@@ -8,9 +8,11 @@ alert("We're going to determine whether you should use a PNG or JPEG image on yo
 //This is the initial alert letting the user know what we're going to determine.
 
 var fileSize = prompt("Do you need an image with a small file size?");
+//This variable helps us track if the user is concerned about file size.
 if (fileSize === ""){
     alert("You forgot to indicate whether or not file size was a concerned.");
     fileSize = prompt("Do you need an image with a small file size?");
+    //The above is the validation check to make sure that the user put an answer in the file size prompt.
 }
 
 var trans = prompt("Do you need your image to have a transparent background?");
