@@ -18,3 +18,15 @@ if (trans === ""){
     alert("You forgot to indicate whether you need a transparent background or not?");
     trans = prompt("Do you need your image to have a transparent background?");
 }
+
+if (fileSize === "No" && trans === "No"){
+    alert("You should use a JPEG file, since transparency is not an issue and the file size for a JPEG will be smaller than a PNG.");
+}else if (fileSize === "No" && trans === "Yes"){
+    alert("You should use a PNG file since it will allow for a transparent background.");
+}else if (fileSize === "Yes" && trans === "No"){
+    alert("You should use a JPEG file since the file size will be much smaller than if you were to use a PNG.");
+}else if (fileSize === "No" && trans === "No"){
+    alert("You should use a JPEG file since the file size will be smaller and you aren't concerned about transparency.");
+}
+
+
