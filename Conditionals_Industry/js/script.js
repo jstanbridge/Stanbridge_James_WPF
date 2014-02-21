@@ -6,3 +6,6 @@
 
 var fileSize;
 var transparency;
+
+alert("We're going to determine whether you should use a PNG or JPEG image on your website.");
+//This is the initial alert letting the user know what we're going to determine.
