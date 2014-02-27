@@ -26,7 +26,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="712" selection-end="712" vertical-scroll-proportion="0.32234958" vertical-offset="0" max-vertical-offset="698">
+            <state line="20" column="25" selection-start="830" selection-end="830" vertical-scroll-proportion="0.42979944" vertical-offset="0" max-vertical-offset="698">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -121,6 +121,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -242,7 +243,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="712" selection-end="712" vertical-scroll-proportion="0.32234958" vertical-offset="0" max-vertical-offset="698">
+        <state line="20" column="25" selection-start="830" selection-end="830" vertical-scroll-proportion="0.42979944" vertical-offset="0" max-vertical-offset="698">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

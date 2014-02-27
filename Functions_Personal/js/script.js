@@ -9,7 +9,13 @@ alert("Hello! With a few simple bits of information, we can find out how many We
 
 function wwPoints(pro, carb, fat, fiber){
     result = (pro/11) + (carb/9) + (fat/4) - (fiber/35);
-    return result
+    return result;
 }
 
-wwPoints(prompt = "How many grams of protein are in one serving?", prompt = "How many grams of carbohydrates are in one serving?", prompt = "How many grams of fat are in one serving?", prompt = "How many grams of fiber are in one serving?");
+wwPoints(prompt("How many grams of protein are in one serving?"), prompt("How many grams of carbohydrates are in one serving?"), prompt("How many grams of fat are in one serving?"), prompt("How many grams of fiber are in one serving?"));
+
+console.log(result);
+
+var totalPoints = result * prompt("How many servings are you eating?");
+
+console.log(totalPoints);
