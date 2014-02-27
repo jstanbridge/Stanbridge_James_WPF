@@ -11,3 +11,5 @@ function wwPoints(pro, carb, fat, fiber){
     result = (pro/11) + (carb/9) + (fat/4) - (fiber/35);
     return result
 }
+
+wwPoints(prompt = "How many grams of protein are in one serving?", prompt = "How many grams of carbohydrates are in one serving?", prompt = "How many grams of fat are in one serving?", prompt = "How many grams of fiber are in one serving?");
