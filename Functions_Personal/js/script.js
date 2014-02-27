@@ -19,3 +19,6 @@ console.log(result);
 var totalPoints = result * prompt("How many servings are you eating?");
 
 console.log(totalPoints);
+
+alert("Your food totals " + totalPoints + " Weight Watchers Points.");
+console.log("Your food totals " + totalPoints + " Weight Watchers Points.");
