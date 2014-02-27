@@ -16,12 +16,11 @@ function wwPoints(pro, carb, fat, fiber){
 }
 
 wwPoints(prompt("How many grams of protein are in one serving?"), prompt("How many grams of carbohydrates are in one serving?"), prompt("How many grams of fat are in one serving?"), prompt("How many grams of fiber are in one serving?"));
-
-console.log(result);
+//This is the call for the function and includes prompts for the parameters of the function.
 
 var totalPoints = result * prompt("How many servings are you eating?");
-
-console.log(totalPoints);
+//This makes the final calculation and assigns it to the variable totalPoints.
 
 alert("Your food totals " + totalPoints + " Weight Watchers Points.");
 console.log("Your food totals " + totalPoints + " Weight Watchers Points.");
+//These two lines send the final result to the user and the console.
