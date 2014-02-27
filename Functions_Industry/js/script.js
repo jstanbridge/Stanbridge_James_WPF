@@ -12,9 +12,9 @@ function wages(pay, hrsWrk){
     if (pay === 0 || hrsWrk === 0){
         alert("You forgot to fill in a field.");
     }else if (overtime === true){
-        var withOT = function (otHrs){
+        var withOT = function(otHrs){
             totalPay = (pay * hrsWrk) + (otHrs * pay * 2);
-            return totalPay
-        }else totalPay = pay * hrsWrk; return totalPay
-    }
+            return totalPay;
+        }
+    }else totalPay = pay * hrsWrk;
 }
