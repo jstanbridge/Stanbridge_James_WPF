@@ -6,10 +6,14 @@
 
 alert("Let's calculate your wages for this week.");
 alert("Please be sure to enter all numerical values in the following prompts.");
+//These are the initial alerts to inform the user of what we are doing.
 
 function wages(pay, hrsWrk, otHrs){
+    //Here we set up the function for use later on, giving it a name and establishing it's parameters.
     paycheck = (pay * hrsWrk) + (otHrs * pay * 2);
+    //This line is the calculation that is executed when the function is called.
     return paycheck
+    //This line returns the value of the calculation back to where it was called from.
 }
 
 
