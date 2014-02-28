@@ -19,6 +19,11 @@ var space = prompt("Do you like outer space? (YES/NO)");
 
 space = true ? (phrase = "It's clobberin' time!") : (phrase = score);
 
+function quiz(lastName, yrBorn, mChoice){
+    score = lastName + yrBorn + mChoice;
+    return score
+}
+
 /*
 var score
  */
